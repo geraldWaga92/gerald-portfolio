@@ -47,7 +47,7 @@ const Main = () => {
                 <AiOutlineMail size={30} />
               </div>
             </Link>
-            <Link href="./assets/gerald-resume2.pdf" target="_blank">
+            <Link href="./assets/gerald-resume3.pdf" target="_blank">
               <div title="Resume" className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300">
                 <BsFillPersonLinesFill size={30} />
               </div>

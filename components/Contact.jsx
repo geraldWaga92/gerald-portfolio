@@ -62,7 +62,7 @@ const Contact = () => {
                       <AiOutlineMail size={25} />
                     </Link>
                   </div>
-                  <Link href="./assets/Gerald-Resume.pdf" target="_blank">
+                  <Link href="./assets/gerald-resume3.pdf" target="_blank">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300">
                       <BsFillPersonLinesFill size={25} />
                     </div>
