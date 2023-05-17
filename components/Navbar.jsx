@@ -6,7 +6,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
-import NavLogo from "../public/assets/newLogo.png";
+import NavLogo from "../public/assets/logo3.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -23,8 +23,8 @@ const Navbar = () => {
   //     router.asPath === "/Social" ||
   //     router.asPath === "/Store"
   //   ) {
-  //     setNavBg("transparent");
-  //     setLinkColor("#ecf0f3");
+  //     setNav(false);
+  //     // setLinkColor("#ecf0f3");
   //   } else {
   //     setNavBg("#ecf0f3");
   //     setLinkColor("#1f2937");
@@ -51,8 +51,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300"
-          : "fixed w-full h-24 z-[100]"
+          ? "fixed w-full h-16 shadow-xl z-[100] ease-in-out duration-300"
+          : "fixed w-full h-16 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-5 2xl:px-16">
@@ -60,7 +60,7 @@ const Navbar = () => {
           <Image
             src={NavLogo}
             alt="/"
-            width="140"
+            width="180"
             height="60"
             className="cursor-pointer"
           />

@@ -1,20 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import chat from "../public/assets/projects/chat.png";
+import e_Shop from "../public/assets/projects//expense-tracker-app.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Chat = () => {
+const Expense_Dashboard = () => {
   return (
     <div className="w-full overflow-hidden">
       <div className="w-screen h-[60vh] relative">
         <div className="absolute top-0 left-0 w-full h-[60vh] text-white bg-black/70 z-10" />
-        <Image className="absolute bg-top z-[1]" src={chat} alt="/" fill />
+        <Image className="absolute bg-top z-[1]" src={e_Shop} alt="/" fill />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Gerald's Chat App</h2>
-          <h2>Your favorite chat application</h2>
+          <h2 className="py-2">Expense Tracker Dashboard</h2>
+          <h3>Tracking your expenses and income easily</h3>
           <br />
-          <h3>React / Sass / Firebase</h3>
+          <h3>React / MongoDB / Styled-components </h3>
         </div>
       </div>
 
@@ -24,48 +24,36 @@ const Chat = () => {
           <h2 className="mb-3">Overview</h2>
 
           <p>
-            A simple chat application which let you send and receive messages
-            instantly, it can store latest conversation with other users, search
-            a user with our search input and make conversation when we select
-            the user and instantly display on our chat panel all the
-            conversation with the user selected which also make this application
-            real time on sending and receiving messages. We can send images,
-            select the profile picture we like, display the conversation time
-            and only the logged in user can use the app.
+          This simple Expense Tracker application records all your expenses as well as your income all in one application so that knowing where all your money has gone to will become easy and automatically total all our expenses and income with the total balance of our income.
             <br />
             <br />
-            This app comes with login and register functionality and all our
-            data like image, users name with info and chat conversation were all
-            stored on our firebase backend making this app secure and easy to
-            use.
+            This application has a beautiful UI with moving color background, options for creating expenses and your income by categories. Your income and expenses will be displayed on our homepage with a chart element for the total.
           </p>
 
-          <h3 className="mt-5">Chat Application Features: </h3>
+          <h3 className="mt-5">Expense Tracker Dashboard Application Features: </h3>
           <div>
             <div className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Login and register form
+              <RiRadioButtonFill className="pr-1" /> Create Expenses Record
             </div>
             <div className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> User authentication
+              <RiRadioButtonFill className="pr-1" /> Create Income Record
             </div>
             <div className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Protected route which
-              blocked user if not logged in
+              <RiRadioButtonFill className="pr-1" /> Categories of expense and income
             </div>
             <div className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Use firebase v9 to fetched
-              chats conversation
+              <RiRadioButtonFill className="pr-1" /> Chart for expense and income
             </div>
           </div>
           <a
-            href="https://github.com/geraldWaga92/gerald_chat_app"
+            href="https://github.com/geraldWaga92/expense-app"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code and Demo Video</button>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://gerald-chat-app-c2cu.vercel.app/login"
+            href="https://expense-tracker-dashboard.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -80,13 +68,10 @@ const Chat = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Sass
+                <RiRadioButtonFill className="pr-1" /> MERN Stack
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase v9
+                <RiRadioButtonFill className="pr-1" /> Styled Component
               </p>
             </div>
           </div>
@@ -99,4 +84,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default Expense_Dashboard;

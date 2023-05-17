@@ -1,20 +1,20 @@
 import Image from "next/image";
 import React from "react";
-import chat from "../public/assets/projects/chat.png";
+import e_Shop from "../public/assets/projects/gerald-eshop.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Chat = () => {
+const Shop = () => {
   return (
     <div className="w-full overflow-hidden">
       <div className="w-screen h-[60vh] relative">
         <div className="absolute top-0 left-0 w-full h-[60vh] text-white bg-black/70 z-10" />
-        <Image className="absolute bg-top z-[1]" src={chat} alt="/" fill />
+        <Image className="absolute bg-top z-[1]" src={e_Shop} alt="/" fill />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Gerald's Chat App</h2>
-          <h2>Your favorite chat application</h2>
+          <h2 className="py-2">Gerald E-shop</h2>
+          <h2>Your One stop online shop</h2>
           <br />
-          <h3>React / Sass / Firebase</h3>
+          <h3>React / MongoDB / Antd / Paypal</h3>
         </div>
       </div>
 
@@ -24,23 +24,13 @@ const Chat = () => {
           <h2 className="mb-3">Overview</h2>
 
           <p>
-            A simple chat application which let you send and receive messages
-            instantly, it can store latest conversation with other users, search
-            a user with our search input and make conversation when we select
-            the user and instantly display on our chat panel all the
-            conversation with the user selected which also make this application
-            real time on sending and receiving messages. We can send images,
-            select the profile picture we like, display the conversation time
-            and only the logged in user can use the app.
+            Gerald e-shop is your one stop shop for browsing and order products for your needs. This application
+            has filtering options to only select the lowest price or kind of category, it used paypal as our payment 
+            gateway and lastly it contain dashboard for the admin user to track, add, delete and update products
             <br />
-            <br />
-            This app comes with login and register functionality and all our
-            data like image, users name with info and chat conversation were all
-            stored on our firebase backend making this app secure and easy to
-            use.
           </p>
 
-          <h3 className="mt-5">Chat Application Features: </h3>
+          <h3 className="mt-5">Gerald e-shop Application Features: </h3>
           <div>
             <div className="text-gray-600 py-2 flex items-center">
               <RiRadioButtonFill className="pr-1" /> Login and register form
@@ -49,23 +39,27 @@ const Chat = () => {
               <RiRadioButtonFill className="pr-1" /> User authentication
             </div>
             <div className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Protected route which
-              blocked user if not logged in
+              <RiRadioButtonFill className="pr-1" /> Dashboard panel for user admin
             </div>
             <div className="text-gray-600 py-2 flex items-center">
-              <RiRadioButtonFill className="pr-1" /> Use firebase v9 to fetched
-              chats conversation
+              <RiRadioButtonFill className="pr-1" /> Product CRUD dashboard panel
+            </div>
+            <div className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="pr-1" /> Filter products
+            </div>
+            <div className="text-gray-600 py-2 flex items-center">
+              <RiRadioButtonFill className="pr-1" /> Use Paypal for payment 
             </div>
           </div>
           <a
-            href="https://github.com/geraldWaga92/gerald_chat_app"
+            href="https://github.com/geraldWaga92/gerald-Eshop"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code and Demo Video</button>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://gerald-chat-app-c2cu.vercel.app/login"
+            href="https://gerald-eshop.cyclic.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -80,13 +74,13 @@ const Chat = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Sass
+                <RiRadioButtonFill className="pr-1" /> Antd
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> MERN stack
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase v9
+                <RiRadioButtonFill className="pr-1" /> Paypal
               </p>
             </div>
           </div>
@@ -99,4 +93,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default Shop;

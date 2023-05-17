@@ -13,7 +13,15 @@ import Firebase from "../public/assets/skills/firebase.png";
 import Mysql from "../public/assets/skills/mysql.png";
 import Paypal from "../public/assets/skills/paypal.png";
 import Strapi from "../public/assets/skills/strapi.png";
-import Stripe from "../public/assets/skills/stripe.png";
+import Apollo from "../public/assets/skills/apollo2.png";
+import DevOps from "../public/assets/skills/devOps.png";
+import Docker from "../public/assets/skills/docker2.png";
+import GraphQl from "../public/assets/skills/graphQl2.png";
+import Jenkins from "../public/assets/skills/jenkins2.png";
+import Kubernetes from "../public/assets/skills/kubernetes.png";
+import PostgreSQl from "../public/assets/skills/postgresql2.png";
+import Prisma from "../public/assets/skills/prisma3.jpg";
+import SonarQube from "../public/assets/skills/sonarqube2.png";
 import JWT from "../public/assets/skills/JWT.png";
 import Github from "../public/assets/skills/github.png";
 
@@ -162,7 +170,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+          {/* <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Stripe} width="60" height="60" alt="/" />
@@ -171,7 +179,7 @@ const Skills = () => {
                 <h3>Stripe Payment</h3>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
@@ -180,6 +188,105 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>JWT & cookies</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Apollo} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Apollo</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={DevOps} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>DevOps</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Docker} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Docker Container</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={GraphQl} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>GraphQl</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Jenkins} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Jenkins CICD</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Kubernetes} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Kubernetes</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={PostgreSQl} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>PostgresQl</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Prisma} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Prisma Library</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl flex justify-center content-center hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={SonarQube} width="60" height="60" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SonarQube Code Quality</h3>
               </div>
             </div>
           </div>
