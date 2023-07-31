@@ -6,9 +6,6 @@ import chat_app from "../public/assets/projects/chat.png";
 import social_app from "../public/assets/projects/social-app.png";
 import Gerald_eshop from "../public/assets/projects/gerald-eshop.png";
 import Expense_tracker from "../public/assets/projects/expense-tracker-app.png";
-import Project_Management from "../public/assets/projects/project-management-app.png";
-import Shoes_CRUD_product from "../public/assets/projects/shoes-product-CRUD-app.png";
-import DevOps from "../public/assets/projects/jenkins2.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -36,27 +33,6 @@ const Projects = () => {
           />
 
           <ProjectItem
-            title="Project Management App"
-            backgroundImg={Project_Management}
-            projectUrl="/Project-management"
-            tech="React, GraphQl, Apollo"
-          />
-
-          <ProjectItem
-            title="Shoes Product CRUD App"
-            backgroundImg={Shoes_CRUD_product}
-            projectUrl="/Product"
-            tech="React, PostgreSQL, prisma"
-          />
-
-          <ProjectItem
-            title="DevOps project with jenkins, aws, docker, solarqube"
-            backgroundImg={DevOps}
-            projectUrl="/DevOps"
-            tech="jenkins, aws, docker, solarqube"
-          />
-
-          <ProjectItem
             title="Realtime Chat App"
             backgroundImg={chat_app}
             projectUrl="/Chat"
@@ -76,12 +52,6 @@ const Projects = () => {
             projectUrl="/Social"
             tech="React, Mysql"
           />
-          {/* <ProjectItem
-            title="E-commerce"
-            backgroundImg={e_commerce}
-            projectUrl="/Store"
-            tech="React JS"
-          /> */}
         </div>
       </div>
     </div>

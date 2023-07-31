@@ -29,7 +29,10 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300" title="linkedIn">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300"
+                title="linkedIn"
+              >
                 <FaLinkedinIn size={30} />
               </div>
             </a>
@@ -38,17 +41,26 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div title="Github" className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300">
+              <div
+                title="Github"
+                className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300"
+              >
                 <FaGithub size={30} />
               </div>
             </a>
             <Link href={"mailto:geraldwaga30@gmail.com"}>
-              <div title="Email" className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300">
+              <div
+                title="Email"
+                className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300"
+              >
                 <AiOutlineMail size={30} />
               </div>
             </Link>
-            <Link href="./assets/gerald-resume3.pdf" target="_blank">
-              <div title="Resume" className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300">
+            <Link href="./assets/my-resume.pdf" target="_blank">
+              <div
+                title="Resume"
+                className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-125 ease-in duration-300"
+              >
                 <BsFillPersonLinesFill size={30} />
               </div>
             </Link>
